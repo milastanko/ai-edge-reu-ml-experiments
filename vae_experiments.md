@@ -19,6 +19,16 @@ Starting from a provided variational autoencoder notebook (MNIST digits), I chan
 - **Higher beta made reconstruction worse.** Beta controls how strongly the latent space is pushed toward a simple distribution, so raising it from 1 to 5 traded some reconstruction accuracy for a more regular latent space. Digits were still recognizable but blurrier.
 - **Lower learning rate made almost no difference.** With the number of training epochs unchanged, a 10x smaller learning rate only slowed learning, and the result was close to the default.
 
+## Generated samples
+
+| Default (latent size 2) | Latent size 10 |
+|---|---|
+| ![Run 0](run0_default.png) | ![Run 1](run1_latent_dims10.png) |
+
+| Beta 5 | Learning rate 1e-4 |
+|---|---|
+| ![Run 2](run2_variational_beta5.png) | ![Run 3](run3_lr1e-4.png) |
+
 ## Takeaway
 
 For better generation quality in this setup, increasing latent size was the most effective of the three changes tested.
