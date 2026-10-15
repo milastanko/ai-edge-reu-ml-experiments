@@ -23,11 +23,11 @@ Starting from a provided variational autoencoder notebook (MNIST digits), I chan
 
 | Default (latent size 2) | Latent size 10 |
 |---|---|
-| ![Run 0](run0_default.png) | ![Run 1](run1_latent_dims10.png) |
+| ![Run 0](images/run0_default.png) | ![Run 1](images/run1_latent_dims10.png) |
 
 | Beta 5 | Learning rate 1e-4 |
 |---|---|
-| ![Run 2](run2_variational_beta5.png) | ![Run 3](run3_lr1e-4.png) |
+| ![Run 2](images/run2_variational_beta5.png) | ![Run 3](images/run3_lr1e-4.png) |
 
 ## Takeaway
 
